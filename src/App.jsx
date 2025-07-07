@@ -10,8 +10,9 @@ import Educator from './pages/educator/Educator'
 import Dashboard from './pages/educator/Dashboard'
 import AddCourse from './pages/educator/AddCourse'
 import MyCourses from './pages/educator/MyCourses'
-import StudentsEnrolled from './components/educator/StudentsEnrolled'
+import StudentsEnrolled from './pages/educator/StudentsEnrolled'
 import Navbar from './components/student/Navbar'
+import "quill/dist/quill.snow.css";
 const App = () => {
  const iseducatorroute=useMatch('/educator/*')
   return (
